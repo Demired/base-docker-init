@@ -4,11 +4,11 @@ yum upgrade -y
 yum install git docker -y
 
 git config --global user.name "zhangyuan"
-git config --global user.email "zhangyuan@newyoumedia.cn"
+git config --global user.email "zhangyuan@newyou.ltd"
 
 rm -rf ~/.ssh/
 
-ssh-keygen -t rsa -N '' -C "zhangyuan@newyoumedia.cn" -f ~/.ssh/id_rsa
+ssh-keygen -t rsa -N '' -C "zhangyuan@newyou.ltd" -f ~/.ssh/id_rsa
 
 cat ~/.ssh/id_rsa.pub
 
