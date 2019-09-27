@@ -14,7 +14,7 @@ cat ~/.ssh/id_rsa.pub
 
 read -p "请打开 https://github.com/settings/keys 添加一个新key"
 
-service docker start
+systemctl docker start
 
 curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
